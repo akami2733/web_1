@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
 })
 
 app.post("/", (req, res) => {
-    console.log(req.body)
     res.send((Number(req.body.num_1) + Number(req.body.num_2)).toString())
 })
 
